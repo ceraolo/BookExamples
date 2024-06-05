@@ -12,7 +12,7 @@ package BookExamples "Package containing basic EV models"
       Placement(transformation(origin = {-22, 20}, extent = {{-10, -10}, {10, 10}})));
     Modelica.Mechanics.Rotational.Sources.Torque torque annotation(
       Placement(visible = true, transformation(extent = {{-82, 10}, {-62, 30}}, rotation = 0)));
-    EHPTlib.SupportModels.Miscellaneous.PropDriver driver(CycleFileName = Modelica.Utilities.Files.loadResource("modelica://BookExamples/Resources/wltc3b.txt"), extrapolation = Modelica.Blocks.Types.Extrapolation.Periodic, k = 1000, yMax = 100000.0) annotation(
+    EHPTlib.SupportModels.Miscellaneous.PropDriver driver(CycleFileName = Modelica.Utilities.Files.loadResource("modelica://BookExamples/Resources/Sort1.txt"), extrapolation = Modelica.Blocks.Types.Extrapolation.Periodic, k = 1000, yMax = 100000.0) annotation(
       Placement(transformation(origin = {0, -4}, extent = {{-118, 14}, {-98, 34}})));
     Modelica.Mechanics.Translational.Components.Mass mass(m = 1500) annotation(
       Placement(transformation(origin = {4, 0}, extent = {{34, 10}, {54, 30}})));
